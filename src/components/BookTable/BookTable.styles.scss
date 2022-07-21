@@ -1,0 +1,26 @@
+table {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.custom-table {
+  &__action-btn {
+    cursor: pointer;
+    border: 1px solid #eee;
+    background: none;
+    margin-right: 5px;
+
+    svg {
+      pointer-events: none;
+      padding: 5px;
+      width: 1.7em;
+      height: 1.7em;
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+  }
+}

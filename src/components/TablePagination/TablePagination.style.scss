@@ -1,0 +1,13 @@
+.custom-table {
+  &__pagination {
+    ul {
+      margin-bottom: 0;
+    }
+
+    .select-perpage {
+      max-width: 70px;
+      margin-left: 10px;
+    }
+  }
+
+}
